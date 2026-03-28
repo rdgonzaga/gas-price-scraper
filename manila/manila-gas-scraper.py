@@ -22,16 +22,16 @@ KNOWN_BRANDS = [
 
 BASE_DIR = Path(__file__).resolve().parent
 
+# removes pesos sign and convert the string to a usable function
 def clean_price(price_str):
-    """Removes the '₱' sign and converts the string to a usable decimal number."""
     try:
         return float(price_str.replace('₱', '').replace(',', '').strip())
     except (AttributeError, ValueError):
         return None
 
 
+# extract numeric station id from the report
 def parse_station_id(onclick_value):
-    """Extracts numeric station ID from: openCityReport(33, "Station Name")."""
     if not onclick_value:
         return None
 
@@ -54,7 +54,7 @@ def is_generic_city_station(station_name, city_name):
 
     return False
 
-
+# help to filter and clean the gas station dataset
 def filter_and_deduplicate_stations(stations_data, city_name):
     cleaned_rows = []
     seen = set()
@@ -83,12 +83,12 @@ def filter_and_deduplicate_stations(stations_data, city_name):
     return cleaned_rows, removed_generic, removed_duplicates
 
 
+# this function was created with the help of generative AI to make sure that
+# the scraping logic is correct by making sure that all of the data was loaded
 def expand_station_rows(page, max_clicks=40):
-    """Clicks 'Show more' until all station rows are loaded."""
+    # clicks the show more button until all of the gas stations are loaded 
     print("Expanding station list to load all rows...")
 
-    # Some page states initially show only the first 5 rows.
-    # Click the action like "Show all 108 stations" when available.
     show_all_candidates = page.locator("button:has-text('Show all')")
     for i in range(show_all_candidates.count()):
         candidate = show_all_candidates.nth(i)
@@ -127,12 +127,14 @@ def expand_station_rows(page, max_clicks=40):
                 timeout=5000,
             )
         except Exception:
-            # If rows don't increase immediately, allow a short delay before re-checking.
+            # if the rows did not increase immediately, add a short delay before rechecking
             page.wait_for_timeout(700)
 
     total_rows = page.locator('#stationTableBody tr').count()
     print(f"Loaded {total_rows} station rows.")
 
+# this function was created with the use of Generative AI 
+# to make sure that the scraping logic is correct
 def scrape_gaswatch():
     url = "https://gaswatchph.com/manila"
     
