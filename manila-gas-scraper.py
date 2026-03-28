@@ -3,6 +3,22 @@ from bs4 import BeautifulSoup
 import pandas as pd
 import re
 
+KNOWN_BRANDS = [
+    "Petron",
+    "Shell",
+    "Caltex",
+    "Phoenix",
+    "Seaoil",
+    "Unioil",
+    "Flying V",
+    "Cleanfuel",
+    "CleanFuel",
+    "PTT",
+    "Total",
+    "TotalEnergies",
+    "Jetti",
+]
+
 def clean_price(price_str):
     """Removes the '₱' sign and converts the string to a usable decimal number."""
     try:
@@ -18,6 +34,50 @@ def parse_station_id(onclick_value):
 
     match = re.search(r"openCityReport\((\d+),", onclick_value)
     return int(match.group(1)) if match else None
+
+
+def normalize_station_name(name):
+    return re.sub(r"\s+", " ", name).strip().lower()
+
+
+def is_generic_city_station(station_name, city_name):
+    normalized = normalize_station_name(station_name)
+    city_normalized = city_name.strip().lower()
+
+    for brand in KNOWN_BRANDS:
+        brand_city = f"{brand.lower()} {city_normalized}"
+        if normalized == brand_city:
+            return True
+
+    return False
+
+
+def filter_and_deduplicate_stations(stations_data, city_name):
+    cleaned_rows = []
+    seen = set()
+    removed_generic = 0
+    removed_duplicates = 0
+
+    for row in stations_data:
+        station_name = row.get("Station", "")
+        if is_generic_city_station(station_name, city_name):
+            removed_generic += 1
+            continue
+
+        dedupe_key = (
+            normalize_station_name(station_name),
+            row.get("Price per Liter (PHP)"),
+            row.get("Brand Color"),
+        )
+
+        if dedupe_key in seen:
+            removed_duplicates += 1
+            continue
+
+        seen.add(dedupe_key)
+        cleaned_rows.append(row)
+
+    return cleaned_rows, removed_generic, removed_duplicates
 
 
 def expand_station_rows(page, max_clicks=40):
@@ -168,9 +228,19 @@ def scrape_gaswatch():
                 })
 
     if stations_data:
+        stations_data, removed_generic, removed_duplicates = filter_and_deduplicate_stations(
+            stations_data,
+            city_name="Manila",
+        )
+
         df = pd.DataFrame(stations_data)
         print("\nScraping Successful! Here is a preview of the main table:")
         print(df.head())
+
+        print(
+            f"Removed {removed_generic} city-only generic stations and {removed_duplicates} duplicate rows."
+        )
+        print(f"Final station count: {len(df)}")
         
         df.to_csv('manila_gas_prices.csv', index=False, encoding='utf-8')
         print("\n✅ Main data saved to 'manila_gas_prices.csv'!")

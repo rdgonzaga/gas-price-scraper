@@ -1,32 +1,19 @@
 Rank,Station ID,Station,Price per Liter (PHP),Brand Color
 1,33,Phoenix Dimasalang Sta Cruz,116.5,#FF6600
 2,728,Phoenix Moriones Tondo Manila,116.5,#FF6600
-3,1108,Phoenix Manila,116.5,#FF6600
-4,1246,Phoenix Manila,116.5,#FF6600
 5,30,Petron Taft Ave Malate,117.6,#004B93
 6,110,Petron Dela Fuente / G. Tuazon Sampaloc,117.6,#004B93
 7,111,Petron Rizal Ave / Malabon St Sta Cruz,117.6,#004B93
 8,112,Petron Juan Luna / Honorio Lopez Tondo,117.6,#004B93
 9,556,Petron Juan Luna Tondo Manila,117.6,#004B93
-10,643,Petron Juan Luna Tondo Manila,117.6,#004B93
 11,703,Petron Moriones Tondo Manila,117.6,#004B93
 12,900,Petron Lacson Ave Sampaloc Manila,117.6,#004B93
 13,901,Petron Manga Ave Sampaloc Manila,117.6,#004B93
 14,963,Petron V. Mapa Sta. Mesa Manila,117.6,#004B93
-15,1003,Petron Manila,117.6,#004B93
-16,1104,Petron Manila,117.6,#004B93
 17,1115,Petron Lacson Ave Tondo Manila,117.6,#004B93
 18,1122,Petron Paco Pandacan Manila,117.6,#004B93
 19,1125,Petron Magsaysay Blvd Sta. Mesa Manila,117.6,#004B93
-20,1164,Petron Manila,117.6,#004B93
-21,1193,Petron Manila,117.6,#004B93
-22,1215,Petron Manila,117.6,#004B93
-23,1231,Petron Manila,117.6,#004B93
-24,1243,Petron Manila,117.6,#004B93
-25,1259,Petron Manila,117.6,#004B93
-26,1273,Petron Manila,117.6,#004B93
 27,466,Petron Tejeron San Andres Manila,117.9,#004B93
-28,1219,Petron Manila,117.9,#004B93
 29,87,Total Pedro Gil Manila,118.2,#FF0000
 30,479,TotalEnergies San Andres Manila,118.2,#FF0000
 31,824,TotalEnergies Espana Blvd Sampaloc Manila,118.2,#FF0000
@@ -37,29 +24,18 @@ Rank,Station ID,Station,Price per Liter (PHP),Brand Color
 36,909,Shell Lacson Ave Espana Sampaloc Manila,119.0,#FFD500
 37,1171,Petron Pedro Gil Paco Manila,119.0,#004B93
 38,537,Petron Radial Rd 10 Tondo Manila,119.1,#004B93
-39,1230,Petron Manila,119.3,#004B93
 40,109,Petron UN Ave / Romualdez Paco,119.6,#004B93
 41,455,Unioil Quirino Ave San Andres Manila,119.6,#1B3C73
 42,913,Unioil Espana Blvd Sampaloc Manila,119.6,#1B3C73
-43,1097,Unioil Manila,119.6,#1B3C73
-44,1141,Unioil Manila,119.6,#1B3C73
-45,1165,Unioil Espana Blvd Sampaloc Manila,119.6,#1B3C73
-46,1208,Petron Manila,119.6,#004B93
-47,1244,Unioil Manila,119.6,#1B3C73
 48,34,Unioil Quirino Ave Pandacan,119.7,#1B3C73
 49,468,Petron Osmeña Hwy San Andres Manila,119.9,#004B93
 50,704,Petron Moriones Tondo Manila,120.1,#004B93
-51,1204,Petron Manila,120.1,#004B93
 52,31,Caltex Quirino / Mabini Malate,121.0,#E31937
 53,32,Caltex Jose Abad Santos Tondo,121.0,#E31937
 54,467,Caltex Pandacan Manila,121.0,#E31937
 55,483,Caltex Tejeron San Andres Manila,121.0,#E31937
 56,928,Caltex Pedro Gil Paco Manila,121.0,#E31937
-57,957,Caltex Manila,121.0,#E31937
-58,1202,Caltex Manila,121.0,#E31937
 59,1213,Caltex MetroOil,121.0,#E31937
-60,1297,Caltex Manila,121.0,#E31937
-61,1303,Caltex Manila,123.2,#E31937
 62,142,Seaoil Pritil Juan Luna Tondo,123.6,#00A651
 63,143,Seaoil Paco Peñafrancia Manila,123.6,#00A651
 64,144,Seaoil Legarda Sampaloc Manila,123.6,#00A651
@@ -68,42 +44,19 @@ Rank,Station ID,Station,Price per Liter (PHP),Brand Color
 67,477,Seaoil Osmeña Hwy San Andres Manila,123.6,#00A651
 68,487,Seaoil SEAOIL - Pedro Gil,123.6,#00A651
 69,558,Seaoil Juan Luna Tondo Manila,123.6,#00A651
-70,1023,Seaoil Manila,123.6,#00A651
 71,1098,Seaoil Lacson Ave Sampaloc Manila,123.6,#00A651
-72,1134,Seaoil Manila,123.6,#00A651
 73,1188,Seaoil E. Rodriguez Ave,123.6,#00A651
-74,1205,Seaoil Manila,123.6,#00A651
-75,1269,Seaoil Manila,123.6,#00A651
-76,1281,Seaoil Manila,123.6,#00A651
-77,1296,Seaoil Manila,123.6,#00A651
 78,1083,Shell Magsaysay Blvd Sta. Mesa Manila,124.9,#FFD500
 79,474,Shell Quirino Ave Paco Manila,125.45,#FFD500
 80,478,Shell Quirino Ave San Andres Manila,125.45,#FFD500
 81,557,Shell Moriones Tondo Manila,125.45,#FFD500
 82,876,Shell Pedro Gil Paco Manila,125.45,#FFD500
 83,1101,Shell Blumentritt Rd Tondo Manila,125.45,#FFD500
-84,1116,Shell Pedro Gil Paco Manila,125.45,#FFD500
-85,1194,Shell Manila,125.45,#FFD500
-86,1197,Shell Manila,125.45,#FFD500
-87,1210,Shell Manila,125.45,#FFD500
-88,1214,Shell Manila,125.45,#FFD500
-89,1220,Shell Manila,125.45,#FFD500
-90,1226,Shell Manila,125.45,#FFD500
-91,1229,Shell Manila,125.45,#FFD500
-92,1261,Shell Manila,125.45,#FFD500
-93,1290,Shell Manila,125.45,#FFD500
 94,1293,Shell Tayuman Sta. Cruz Manila,125.45,#FFD500
 95,90,Flying V F. Huertas Sta. Cruz,127.9,#8B0000
 96,924,Flying V Magsaysay Blvd Sta. Mesa Manila,127.9,#8B0000
-97,1217,Flying V Manila,127.9,#8B0000
-98,1238,Flying V Manila,127.9,#8B0000
-99,1245,Flying V Manila,127.9,#8B0000
 100,475,Caltex Osmeña Hwy Sta. Ana Manila,128.0,#E31937
-101,1285,PTT Manila,131.15,#5B2C6F
 102,82,Cleanfuel P. Gil Sta. Ana,138.55,#00B4D8
 103,454,CleanFuel Quirino Ave San Andres Manila,138.55,#00B4D8
 104,472,CleanFuel San Andres Manila,138.55,#00B4D8
 105,919,CleanFuel Lacson Ave Tondo Manila,138.55,#00B4D8
-106,944,Cleanfuel Manila,138.55,#00B4D8
-107,1236,CleanFuel Manila,138.55,#00B4D8
-108,1295,CleanFuel Manila,138.55,#00B4D8

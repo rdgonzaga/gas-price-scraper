@@ -33,6 +33,22 @@ Merge both city outputs:
 
 python merge_city_data.py
 
+## Get Coordinates (Latitude/Longitude)
+
+Leaflet is a map library and needs coordinates. Use geocode_stations.py to convert station names into coordinates using OpenStreetMap Nominatim.
+
+Geocode merged file (recommended):
+
+python geocode_stations.py --input merged_manila_quezon_city_gas_prices.csv --output merged_manila_quezon_city_gas_prices_geocoded.csv
+
+Geocode Manila-only file:
+
+python geocode_stations.py --input manila_gas_prices.csv --output manila_gas_prices_geocoded.csv --fixed-city Manila --city-column ""
+
+Geocode Quezon City-only file:
+
+python geocode_stations.py --input quezon_city_gas_prices.csv --output quezon_city_gas_prices_geocoded.csv --fixed-city "Quezon City" --city-column ""
+
 ## Output Files
 
 - manila_gas_prices.csv
@@ -41,3 +57,4 @@ python merge_city_data.py
 - quezon_city_gas_summary.csv
 - merged_manila_quezon_city_gas_prices.csv
 - merged_manila_quezon_city_gas_summary.csv
+- merged_manila_quezon_city_gas_prices_geocoded.csv
