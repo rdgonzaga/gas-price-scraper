@@ -1,0 +1,240 @@
+Rank,Station ID,Station,Price per Liter (PHP),Brand Color
+1,503,Seaoil Quezon Ave,110.0,#00A651
+2,799,Petron Commonwealth Ave,115.4,#004B93
+3,24,Phoenix Timog Ave South Triangle,116.5,#FF6600
+4,25,Phoenix G. Araneta / Baloy Santol,116.5,#FF6600
+5,566,Phoenix Gen. Luis St,116.5,#FF6600
+6,578,Phoenix EDSA Balintawak,116.5,#FF6600
+7,597,Phoenix Visayas Ave,116.5,#FF6600
+8,632,Phoenix Quezon Ave,116.5,#FF6600
+9,664,Phoenix Mindanao Ave,116.5,#FF6600
+10,674,Phoenix Mindanao Ave,116.5,#FF6600
+11,696,Phoenix Congressional Ave,116.5,#FF6600
+12,708,Phoenix Regalado Ave,116.5,#FF6600
+13,747,Phoenix Visayas Ave,116.5,#FF6600
+14,960,Phoenix Regalado Ave,116.5,#FF6600
+15,656,Caltex Commonwealth Ave Fairview,117.15,#E31937
+16,940,Petron Roosevelt Ave,117.2,#004B93
+17,17,Petron EDSA-Main Ave Crame,117.6,#004B93
+18,18,Petron Commonwealth UP Campus,117.6,#004B93
+19,105,Petron Timog / Tomas Morato,117.6,#004B93
+20,106,Petron V. Luna / Masikap Pinyahan,117.6,#004B93
+21,107,Petron Xavierville / Katipunan,117.6,#004B93
+22,108,Petron Mindanao Ave Bahay Toro,117.6,#004B93
+23,489,Petron Roosevelt Ave,117.6,#004B93
+24,520,Petron Mindanao Ave,117.6,#004B93
+25,521,Petron Tandang Sora Ave,117.6,#004B93
+26,525,Petron Mindanao Ave,117.6,#004B93
+27,540,Petron Commonwealth Ave Batasan,117.6,#004B93
+28,591,Petron E. Rodriguez Ave,117.6,#004B93
+29,592,Petron EDSA,117.6,#004B93
+30,593,Petron EDSA,117.6,#004B93
+31,599,Petron EDSA Cubao,117.6,#004B93
+32,606,Petron Commonwealth Ave Batasan,117.6,#004B93
+33,638,Petron Visayas Ave,117.6,#004B93
+34,651,Petron Congressional Ave,117.6,#004B93
+35,661,Petron Quezon Ave,117.6,#004B93
+36,692,Petron Quirino Hwy,117.6,#004B93
+37,749,Petron EDSA,117.6,#004B93
+38,818,Petron Roosevelt Ave,117.6,#004B93
+39,839,Petron Roosevelt Ave,117.6,#004B93
+40,841,Petron Roosevelt Ave,117.6,#004B93
+41,845,Petron E. Rodriguez Ave,117.6,#004B93
+42,857,Petron Roosevelt Ave,117.6,#004B93
+43,873,Petron Katipunan Ave,117.6,#004B93
+44,874,Petron Commonwealth Ave,117.6,#004B93
+45,877,Petron E. Rodriguez Ave,117.6,#004B93
+46,882,Petron Roosevelt Ave,117.6,#004B93
+47,886,Petron Commonwealth Ave,117.6,#004B93
+48,889,Petron Aurora Blvd,117.6,#004B93
+49,894,Petron Aurora Blvd,117.6,#004B93
+50,897,Petron Roosevelt Ave,117.6,#004B93
+51,1029,Petron Commonwealth Ave,117.6,#004B93
+52,1046,Petron Katipunan Ave,117.6,#004B93
+53,1123,Petron Marcos Hwy,117.6,#004B93
+54,1136,Petron Katipunan Ave,117.6,#004B93
+55,689,Petron Quezon Ave,117.8,#004B93
+56,89,Total EDSA Balintawak,118.2,#FF0000
+57,582,Total EDSA,118.2,#FF0000
+58,654,Total Regalado Ave,118.2,#FF0000
+59,677,Total Aurora Blvd,118.2,#FF0000
+60,691,Total Commonwealth Ave Batasan,118.2,#FF0000
+61,859,Total Commonwealth Ave,118.2,#FF0000
+62,971,Petron Regalado Ave,118.2,#004B93
+63,1027,Total Commonwealth Ave,118.2,#FF0000
+64,1133,Total E. Rodriguez Ave,118.2,#FF0000
+65,884,Petron Katipunan Ave,118.3,#004B93
+66,586,Petron EDSA Balintawak,118.4,#004B93
+67,539,Unioil Aurora Blvd,118.9,#1B3C73
+68,614,Petron Regalado Ave,118.9,#004B93
+69,621,Petron Commonwealth Ave Fairview,118.9,#004B93
+70,646,Petron Commonwealth Ave Fairview,118.9,#004B93
+71,753,Unioil Dahlia Ave Fairview,118.9,#1B3C73
+72,797,Unioil E. Rodriguez Ave,118.9,#1B3C73
+73,847,Petron E. Rodriguez Ave,118.9,#004B93
+74,14,Shell Quezon Ave / Sct Albano,119.0,#FFD500
+75,15,Shell Mindanao Ave Bahay Toro,119.0,#FFD500
+76,16,Shell Katipunan Blueridge,119.0,#FFD500
+77,498,Shell Mindanao Ave,119.0,#FFD500
+78,522,Shell Tandang Sora Ave,119.0,#FFD500
+79,524,Petron Congressional Ave,119.0,#004B93
+80,623,Shell Commonwealth Ave Batasan,119.0,#FFD500
+81,645,Shell Commonwealth Ave Fairview,119.0,#FFD500
+82,673,Shell Mindanao Ave,119.0,#FFD500
+83,690,Shell Quezon Ave,119.0,#FFD500
+84,104,Petron Katipunan / Mangyan Loyola Hts,119.2,#004B93
+85,526,Petron Quezon Ave,119.2,#004B93
+86,567,Petron Aurora Blvd,119.3,#004B93
+87,635,Petron Aurora Blvd,119.3,#004B93
+88,657,Petron Aurora Blvd,119.3,#004B93
+89,685,Petron Aurora Blvd,119.3,#004B93
+90,698,Petron Quezon Ave,119.4,#004B93
+91,515,Unioil Mindanao Ave,119.6,#1B3C73
+92,587,Unioil Congressional Ave,119.6,#1B3C73
+93,595,Unioil EDSA,119.6,#1B3C73
+94,615,Unioil Regalado Ave,119.6,#1B3C73
+95,636,Unioil Aurora Blvd,119.6,#1B3C73
+96,667,Unioil Mindanao Ave,119.6,#1B3C73
+97,668,Unioil Katipunan Ave,119.6,#1B3C73
+98,669,Unioil Quirino Hwy,119.6,#1B3C73
+99,693,Unioil Quirino Hwy,119.6,#1B3C73
+100,717,Unioil Congressional Ave,119.6,#1B3C73
+101,744,Unioil EDSA,119.6,#1B3C73
+102,748,Unioil Congressional Ave,119.6,#1B3C73
+103,755,Unioil Quirino Hwy Bagbag,119.6,#1B3C73
+104,785,Cleanfuel E. Rodriguez Ave,119.6,#00B4D8
+105,828,Unioil E. Rodriguez Ave,119.6,#1B3C73
+106,939,Unioil Roosevelt Ave,119.6,#1B3C73
+107,989,Unioil Commonwealth Ave,119.6,#1B3C73
+108,1001,Unioil Katipunan Ave,119.6,#1B3C73
+109,1158,Unioil E. Rodriguez Ave,119.6,#1B3C73
+110,1185,Unioil Commonwealth Ave Holy Spirit,119.6,#1B3C73
+111,27,Unioil Congressional Ave Ext Culiat,119.7,#1B3C73
+112,28,Unioil Kalayaan Teachers Village,119.7,#1B3C73
+113,742,Petron Aurora Blvd,120.0,#004B93
+114,19,Caltex EDSA Balintawak,121.0,#E31937
+115,20,Caltex Congressional / Cagayan,121.0,#E31937
+116,21,Caltex Katipunan Linear Bldg,121.0,#E31937
+117,22,Caltex Visayas Ave Culiat,121.0,#E31937
+118,23,Caltex Kamuning / Judge Jimenez,121.0,#E31937
+119,496,Caltex Dahlia Ave Fairview,121.0,#E31937
+120,497,Caltex Landers Fairview,121.0,#E31937
+121,509,Caltex E. Rodriguez Ave,121.0,#E31937
+122,541,Caltex Commonwealth Ave Fairview,121.0,#E31937
+123,542,Caltex Tandang Sora Ave,121.0,#E31937
+124,588,Caltex Congressional Ave,121.0,#E31937
+125,608,Caltex Mindanao Ave,121.0,#E31937
+126,665,Caltex Visayas Ave,121.0,#E31937
+127,745,Caltex Aurora Blvd,121.0,#E31937
+128,751,Caltex Heroes Hill Quezon Ave,121.0,#E31937
+129,789,Caltex Roosevelt Ave,121.0,#E31937
+130,832,Caltex E. Rodriguez Ave,121.0,#E31937
+131,891,Caltex Aurora Blvd,121.0,#E31937
+132,927,Caltex Commonwealth Ave,121.0,#E31937
+133,929,Caltex Roosevelt Ave,121.0,#E31937
+134,617,Caltex Regalado Ave,122.85,#E31937
+135,1056,Shell Katipunan Ave,123.3,#FFD500
+136,26,Seaoil A. Bonifacio / Sct Alcaraz,123.6,#00A651
+137,131,Seaoil EDSA P. Tuazon Cubao,123.6,#00A651
+138,132,Seaoil E. Rodriguez Sr. Ave Doña Josefa,123.6,#00A651
+139,133,Seaoil Commonwealth Ave Novaliches,123.6,#00A651
+140,575,Seaoil Quirino Hwy,123.6,#00A651
+141,581,Seaoil EDSA Balintawak,123.6,#00A651
+142,596,Seaoil EDSA,123.6,#00A651
+143,649,Seaoil EDSA Balara,123.6,#00A651
+144,655,Seaoil Regalado Ave,123.6,#00A651
+145,716,Seaoil Gen. Luis St,123.6,#00A651
+146,743,Seaoil Regalado Ave,123.6,#00A651
+147,756,Seaoil Commonwealth Ave Fairview,123.6,#00A651
+148,838,Seaoil E. Rodriguez Ave,123.6,#00A651
+149,660,Petron Gen. Luis St,123.8,#004B93
+150,510,Caltex Commonwealth Ave Fairview,124.0,#E31937
+151,631,Shell Quezon Ave,124.2,#FFD500
+152,675,Shell Mindanao Ave,124.6,#FFD500
+153,570,Phoenix Congressional Ave,124.8,#FF6600
+154,771,Caltex E. Rodriguez Ave,125.05,#E31937
+155,653,Shell Regalado Ave,125.2,#FFD500
+156,13,Shell EDSA-Main Cubao,125.45,#FFD500
+157,504,Shell Quezon Ave,125.45,#FFD500
+158,505,Shell EDSA Cubao,125.45,#FFD500
+159,506,Shell Quezon Ave,125.45,#FFD500
+160,507,Shell Mindanao Ave,125.45,#FFD500
+161,516,Shell Kalayaan Avenue,125.45,#FFD500
+162,517,Shell Quirino Hwy,125.45,#FFD500
+163,535,Shell EDSA Kamuning,125.45,#FFD500
+164,565,Shell Gen. Luis St,125.45,#FFD500
+165,574,Shell Quirino Hwy,125.45,#FFD500
+166,577,Shell Congressional Ave,125.45,#FFD500
+167,579,Shell EDSA Balintawak,125.45,#FFD500
+168,580,Shell Quezon Ave,125.45,#FFD500
+169,584,Shell EDSA,125.45,#FFD500
+170,585,Shell EDSA Balintawak,125.45,#FFD500
+171,589,Shell Congressional Ave,125.45,#FFD500
+172,594,Shell Aurora Blvd Cubao,125.45,#FFD500
+173,598,Shell Katipunan Ave,125.45,#FFD500
+174,604,Shell Congressional Ave,125.45,#FFD500
+175,613,Shell Regalado Ave,125.45,#FFD500
+176,616,Shell Regalado Ave,125.45,#FFD500
+177,624,Shell Dahlia Ave Fairview,125.45,#FFD500
+178,648,Shell EDSA Balara,125.45,#FFD500
+179,678,Shell Visayas Ave,125.45,#FFD500
+180,682,Shell Aurora Blvd,125.45,#FFD500
+181,686,Shell Aurora Blvd,125.45,#FFD500
+182,750,Shell Aurora Blvd,125.45,#FFD500
+183,770,Shell Aurora Blvd,125.45,#FFD500
+184,773,Shell Roosevelt Ave,125.45,#FFD500
+185,784,Shell E. Rodriguez Ave,125.45,#FFD500
+186,792,Shell Roosevelt Ave,125.45,#FFD500
+187,808,Shell Aurora Blvd,125.45,#FFD500
+188,813,Shell Katipunan Ave,125.45,#FFD500
+189,831,Shell E. Rodriguez Ave,125.45,#FFD500
+190,843,Shell E. Rodriguez Ave,125.45,#FFD500
+191,844,Shell E. Rodriguez Ave,125.45,#FFD500
+192,863,Shell Roosevelt Ave,125.45,#FFD500
+193,981,Shell Commonwealth Ave,125.45,#FFD500
+194,1021,Shell Katipunan Ave,125.45,#FFD500
+195,1045,Shell Commonwealth Ave,125.45,#FFD500
+196,1050,Shell Katipunan Ave,125.45,#FFD500
+197,1062,Shell Katipunan Ave,125.45,#FFD500
+198,1091,Shell EDSA,125.45,#FFD500
+199,1159,Shell E. Rodriguez Ave,125.45,#FFD500
+200,78,Flying V Araneta Ave,127.9,#8B0000
+201,79,Flying V Bagumbong Rd,127.9,#8B0000
+202,91,Flying V P. Tuazon Cubao,127.9,#8B0000
+203,491,Flying V Commonwealth Ave,127.9,#8B0000
+204,499,Flying V EDSA Cubao,127.9,#8B0000
+205,523,Flying V Mindanao Ave,127.9,#8B0000
+206,622,Flying V Quirino Hwy,127.9,#8B0000
+207,659,Flying V Quirino Hwy,127.9,#8B0000
+208,672,Flying V Quirino Hwy,127.9,#8B0000
+209,741,Flying V Gen. Luis St,127.9,#8B0000
+210,794,Flying V Commonwealth Ave,127.9,#8B0000
+211,815,Flying V E. Rodriguez Ave,127.9,#8B0000
+212,829,Flying V E. Rodriguez Ave,127.9,#8B0000
+213,99,PTT Belfast Fairview,131.15,#5B2C6F
+214,576,PTT EDSA Kamuning,131.15,#5B2C6F
+215,583,PTT Congressional Ave,131.15,#5B2C6F
+216,620,PTT Quirino Hwy,131.15,#5B2C6F
+217,652,PTT Regalado Ave,131.15,#5B2C6F
+218,861,PTT Roosevelt Ave,131.15,#5B2C6F
+219,910,PTT Roosevelt Ave,131.15,#5B2C6F
+220,150,Jetti Mindanao Ave Bagong Pag-asa,138.2,#C8102E
+221,151,Jetti Dahlia Ave / Chestnut North Fairview,138.2,#C8102E
+222,152,Jetti Tandang Sora Ave,138.2,#C8102E
+223,83,Cleanfuel Commonwealth Ave Balara,138.55,#00B4D8
+224,84,Cleanfuel Fairview Regalado Ave,138.55,#00B4D8
+225,85,Cleanfuel EDSA Cubao,138.55,#00B4D8
+226,93,Cleanfuel Bonny Serrano Cubao,138.55,#00B4D8
+227,493,Cleanfuel Tomas Morato Ave,138.55,#00B4D8
+228,571,Cleanfuel Congressional Ave,138.55,#00B4D8
+229,634,Cleanfuel Aurora Blvd,138.55,#00B4D8
+230,647,Cleanfuel Katipunan Ave,138.55,#00B4D8
+231,650,Cleanfuel Commonwealth Ave,138.55,#00B4D8
+232,658,Cleanfuel Congressional Ave,138.55,#00B4D8
+233,707,Cleanfuel Mindanao Ave,138.55,#00B4D8
+234,709,Cleanfuel Aurora Blvd,138.55,#00B4D8
+235,710,Cleanfuel Regalado Ave,138.55,#00B4D8
+236,726,Cleanfuel Commonwealth Ave Fairview,138.55,#00B4D8
+237,737,Cleanfuel Quezon Ave,138.55,#00B4D8
+238,842,Cleanfuel E. Rodriguez Ave,138.55,#00B4D8
+239,926,Cleanfuel Commonwealth Ave,138.55,#00B4D8
