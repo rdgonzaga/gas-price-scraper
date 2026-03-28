@@ -2,6 +2,7 @@ from playwright.sync_api import sync_playwright
 from bs4 import BeautifulSoup
 import pandas as pd
 import re
+from pathlib import Path
 
 KNOWN_BRANDS = [
     "Petron",
@@ -18,6 +19,8 @@ KNOWN_BRANDS = [
     "TotalEnergies",
     "Jetti",
 ]
+
+BASE_DIR = Path(__file__).resolve().parent
 
 def clean_price(price_str):
     """Removes the '₱' sign and converts the string to a usable decimal number."""
@@ -131,7 +134,7 @@ def expand_station_rows(page, max_clicks=40):
     print(f"Loaded {total_rows} station rows.")
 
 def scrape_gaswatch():
-    url = "https://gaswatchph.com/manila"
+    url = "https://gaswatchph.com/quezon-city"
     
     print("Launching headless browser to fetch data...")
     
@@ -184,7 +187,7 @@ def scrape_gaswatch():
     if summary_data:
         summary_df = pd.DataFrame(summary_data)
         print(summary_df.to_string(index=False))
-        summary_df.to_csv('manila_gas_summary.csv', index=False, encoding='utf-8')
+        summary_df.to_csv(BASE_DIR / 'quezon_city_gas_summary.csv', index=False, encoding='utf-8')
     else:
         print("No summary cards found on the page.")
 
@@ -230,7 +233,7 @@ def scrape_gaswatch():
     if stations_data:
         stations_data, removed_generic, removed_duplicates = filter_and_deduplicate_stations(
             stations_data,
-            city_name="Manila",
+            city_name="Quezon City",
         )
 
         df = pd.DataFrame(stations_data)
@@ -242,8 +245,8 @@ def scrape_gaswatch():
         )
         print(f"Final station count: {len(df)}")
         
-        df.to_csv('manila_gas_prices.csv', index=False, encoding='utf-8')
-        print("\n✅ Main data saved to 'manila_gas_prices.csv'!")
+        df.to_csv(BASE_DIR / 'quezon_city_gas_prices.csv', index=False, encoding='utf-8')
+        print("\n✅ Main data saved to 'quezon_city_gas_prices.csv'!")
     else:
         print("Failed to parse the table rows.")
 

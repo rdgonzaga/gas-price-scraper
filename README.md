@@ -4,9 +4,10 @@ Simple Python scrapers for GasWatchPH city pages, plus a merge script.
 
 ## Files
 
-- manila-gas-scraper.py: Scrapes Manila station prices and summary
-- quezon-city-gas-scraper.py: Scrapes Quezon City station prices and summary
-- merge_city_data.py: Merges Manila and Quezon City CSV outputs
+- manila/manila-gas-scraper.py: Scrapes Manila station prices and summary
+- quezon_city/quezon-city-gas-scraper.py: Scrapes Quezon City station prices and summary
+- merged/merge_city_data.py: Merges Manila and Quezon City CSV outputs
+- merged/geocode_stations.py: Geocodes station rows into latitude/longitude
 
 ## Install
 
@@ -23,15 +24,15 @@ python -m playwright install chromium
 
 Scrape Manila:
 
-python manila-gas-scraper.py
+python manila/manila-gas-scraper.py
 
 Scrape Quezon City:
 
-python quezon-city-gas-scraper.py
+python quezon_city/quezon-city-gas-scraper.py
 
 Merge both city outputs:
 
-python merge_city_data.py
+python merged/merge_city_data.py
 
 ## Get Coordinates (Latitude/Longitude)
 
@@ -39,22 +40,23 @@ Leaflet is a map library and needs coordinates. Use geocode_stations.py to conve
 
 Geocode merged file (recommended):
 
-python geocode_stations.py --input merged_manila_quezon_city_gas_prices.csv --output merged_manila_quezon_city_gas_prices_geocoded.csv
+python merged/geocode_stations.py
 
 Geocode Manila-only file:
 
-python geocode_stations.py --input manila_gas_prices.csv --output manila_gas_prices_geocoded.csv --fixed-city Manila --city-column ""
+python merged/geocode_stations.py --input manila/manila_gas_prices.csv --output manila/manila_gas_prices_geocoded.csv --fixed-city Manila --city-column ""
 
 Geocode Quezon City-only file:
 
-python geocode_stations.py --input quezon_city_gas_prices.csv --output quezon_city_gas_prices_geocoded.csv --fixed-city "Quezon City" --city-column ""
+python merged/geocode_stations.py --input quezon_city/quezon_city_gas_prices.csv --output quezon_city/quezon_city_gas_prices_geocoded.csv --fixed-city "Quezon City" --city-column ""
 
 ## Output Files
 
-- manila_gas_prices.csv
-- manila_gas_summary.csv
-- quezon_city_gas_prices.csv
-- quezon_city_gas_summary.csv
-- merged_manila_quezon_city_gas_prices.csv
-- merged_manila_quezon_city_gas_summary.csv
-- merged_manila_quezon_city_gas_prices_geocoded.csv
+- manila/manila_gas_prices.csv
+- manila/manila_gas_summary.csv
+- manila/manila_gas_prices_geocoded.csv
+- quezon_city/quezon_city_gas_prices.csv
+- quezon_city/quezon_city_gas_summary.csv
+- merged/merged_manila_quezon_city_gas_prices.csv
+- merged/merged_manila_quezon_city_gas_summary.csv
+- merged/merged_manila_quezon_city_gas_prices_geocoded.csv

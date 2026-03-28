@@ -4,6 +4,10 @@ from pathlib import Path
 import pandas as pd
 
 
+BASE_DIR = Path(__file__).resolve().parent
+ROOT_DIR = BASE_DIR.parent
+
+
 def load_city_csv(file_path: Path, city_name: str) -> pd.DataFrame:
     if not file_path.exists():
         raise FileNotFoundError(f"Missing input file: {file_path}")
@@ -58,32 +62,32 @@ def main() -> None:
     )
     parser.add_argument(
         "--manila-prices",
-        default="manila_gas_prices.csv",
+        default=str(ROOT_DIR / "manila" / "manila_gas_prices.csv"),
         help="Path to Manila station prices CSV",
     )
     parser.add_argument(
         "--qc-prices",
-        default="quezon_city_gas_prices.csv",
+        default=str(ROOT_DIR / "quezon_city" / "quezon_city_gas_prices.csv"),
         help="Path to Quezon City station prices CSV",
     )
     parser.add_argument(
         "--manila-summary",
-        default="manila_gas_summary.csv",
+        default=str(ROOT_DIR / "manila" / "manila_gas_summary.csv"),
         help="Path to Manila summary CSV",
     )
     parser.add_argument(
         "--qc-summary",
-        default="quezon_city_gas_summary.csv",
+        default=str(ROOT_DIR / "quezon_city" / "quezon_city_gas_summary.csv"),
         help="Path to Quezon City summary CSV",
     )
     parser.add_argument(
         "--out-prices",
-        default="merged_manila_quezon_city_gas_prices.csv",
+        default=str(BASE_DIR / "merged_manila_quezon_city_gas_prices.csv"),
         help="Output path for merged station prices CSV",
     )
     parser.add_argument(
         "--out-summary",
-        default="merged_manila_quezon_city_gas_summary.csv",
+        default=str(BASE_DIR / "merged_manila_quezon_city_gas_summary.csv"),
         help="Output path for merged summary CSV",
     )
 
